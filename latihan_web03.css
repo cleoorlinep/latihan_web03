@@ -1,5 +1,5 @@
 /* =========================
-   RESET
+            RESET
    ========================= */
 
 * {
@@ -20,19 +20,18 @@ body {
 
 
 /* =========================
-   CONTAINER
+            CONTAINER
    ========================= */
 
 .container {
     width: 540px;
 
-    /* AGAR TEPAT DI TENGAH LAYAR BROWSER */
     margin: 10px auto;
 }
 
 
 /* =========================
-   HEADER
+             HEADER
    ========================= */
 
 .header {
@@ -53,9 +52,6 @@ body {
     padding-left: 48px;
     padding-right: 28px;
 }
-
-
-/* LOGO */
 
 .logo {
     width: 62px;
@@ -86,7 +82,7 @@ body {
 
 
 /* =========================
-   HOME
+             HOME
    ========================= */
 
 .home {
@@ -111,7 +107,7 @@ body {
 
 
 /* =========================
-   SERVICES
+            SERVICES
    ========================= */
 
 .services {
@@ -128,9 +124,6 @@ body {
     padding-top: 22px;
 }
 
-
-/* TOMBOL SECTION */
-
 .judul-button {
     width: 106px;
     height: 56px;
@@ -146,9 +139,6 @@ body {
 
     margin: 0 auto 28px;
 }
-
-
-/* 3 KOLOM */
 
 .services-content {
     display: flex;
@@ -176,7 +166,7 @@ body {
 
 
 /* =========================
-   ABOUT
+             ABOUT
    ========================= */
 
 .about {
@@ -193,9 +183,6 @@ body {
     padding-top: 29px;
 }
 
-
-/* TEKS TENGAH */
-
 .about-text {
     text-align: center;
 
@@ -203,7 +190,7 @@ body {
 }
 
 
-/* CONTENT ABOUT */
+/* CONTENT */
 
 .about-content {
     display: flex;
@@ -247,7 +234,7 @@ body {
 
 
 /* =========================
-   WAVE PERFORMANCE
+       WAVE PERFORMANCE
    ========================= */
 
 .wave {
@@ -263,7 +250,7 @@ body {
 
 
 /* =========================
-   CONTACT
+            CONTACT
    ========================= */
 
 .contact {
@@ -271,7 +258,6 @@ body {
 
     background-color: #d8ead5;
 
-    /* GARIS CONTACT */
     border-left: 1px solid #8fbe7f;
     border-right: 1px solid #8fbe7f;
     border-bottom: 1px solid #e5a300;
@@ -289,18 +275,12 @@ body {
     padding-right: 49px;
 }
 
-
-/* INPUT ROW */
-
 .input-row {
     display: flex;
     justify-content: space-between;
 
     margin-bottom: 19px;
 }
-
-
-/* INPUT */
 
 .input-row input {
     width: 211px;
@@ -313,7 +293,7 @@ body {
 }
 
 
-/* TEXTAREA */
+/* TEXT AREA */
 
 .contact-form textarea {
     width: 100%;
@@ -350,7 +330,7 @@ body {
 
 
 /* =========================
-   FOOTER
+            FOOTER
    ========================= */
 
 .footer {
