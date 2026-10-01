@@ -1,0 +1,370 @@
+/* =========================
+   RESET
+   ========================= */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+
+/* =========================
+   CONTAINER
+   ========================= */
+
+.container {
+    width: 540px;
+
+    /* AGAR TEPAT DI TENGAH LAYAR BROWSER */
+    margin: 10px auto;
+}
+
+
+/* =========================
+   HEADER
+   ========================= */
+
+.header {
+    height: 80px;
+
+    background-color: #ffe5c5;
+
+    /* GARIS HEADER */
+    border-left: 1px solid #e5a300;
+    border-right: 1px solid #e5a300;
+    border-top: 1px solid #e5a300;
+    border-bottom: 1px solid #7fa7d9;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-left: 48px;
+    padding-right: 28px;
+}
+
+
+/* LOGO */
+
+.logo {
+    width: 62px;
+    height: 62px;
+
+    background-color: white;
+
+    border: 1px solid black;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* NAVIGASI */
+
+.navigasi {
+    display: flex;
+    gap: 18px;
+}
+
+.navigasi a {
+    color: black;
+    text-decoration: none;
+}
+
+
+/* =========================
+   HOME
+   ========================= */
+
+.home {
+    height: 210px;
+
+    background-color: #d5e3f8;
+
+    /* GARIS HOME */
+    border-left: 1px solid #7fa7d9;
+    border-right: 1px solid #7fa7d9;
+    border-bottom: 1px solid #e5c25c;
+    border-top: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero {
+    text-align: center;
+}
+
+
+/* =========================
+   SERVICES
+   ========================= */
+
+.services {
+    height: 230px;
+
+    background-color: #fff1c9;
+
+    /* GARIS SERVICES */
+    border-left: 1px solid #e5c25c;
+    border-right: 1px solid #e5c25c;
+    border-bottom: 1px solid #aa89bb;
+    border-top: none;
+
+    padding-top: 22px;
+}
+
+
+/* TOMBOL SECTION */
+
+.judul-button {
+    width: 106px;
+    height: 56px;
+
+    background-color: white;
+
+    border: 1px solid black;
+    border-radius: 9px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 auto 28px;
+}
+
+
+/* 3 KOLOM */
+
+.services-content {
+    display: flex;
+    justify-content: space-between;
+
+    padding-left: 54px;
+    padding-right: 54px;
+}
+
+.service {
+    width: 120px;
+}
+
+.service h2 {
+    margin: 0 0 16px;
+
+    font-size: 24px;
+}
+
+.service p {
+    margin: 0;
+
+    line-height: 15px;
+}
+
+
+/* =========================
+   ABOUT
+   ========================= */
+
+.about {
+    height: 280px;
+
+    background-color: #dfd3e8;
+
+    /* GARIS ABOUT */
+    border-left: 1px solid #aa89bb;
+    border-right: 1px solid #aa89bb;
+    border-bottom: 1px solid #8fbe7f;
+    border-top: none;
+
+    padding-top: 29px;
+}
+
+
+/* TEKS TENGAH */
+
+.about-text {
+    text-align: center;
+
+    margin-bottom: 24px;
+}
+
+
+/* CONTENT ABOUT */
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
+
+/* DESKRIPSI */
+
+.about-description {
+    width: 150px;
+}
+
+.about-description h2 {
+    margin: 0 0 16px;
+
+    font-size: 24px;
+}
+
+.about-description p {
+    margin: 0;
+
+    line-height: 15px;
+}
+
+
+/* PERFORMANCE */
+
+.about-performance {
+    width: 170px;
+}
+
+.about-performance h2 {
+    margin: 0 0 16px;
+
+    font-size: 24px;
+}
+
+
+/* =========================
+   WAVE PERFORMANCE
+   ========================= */
+
+.wave {
+    width: 170px;
+    height: 80px;
+
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='170' height='80' viewBox='0 0 170 80'%3E%3Cpath d='M1 18 C25 33 48 38 72 30 C99 21 119 4 146 10 C155 12 163 15 169 19 L169 61 C160 56 151 53 142 52 C119 49 100 56 78 67 C54 78 29 72 1 58 Z' fill='white' stroke='black' stroke-width='1'/%3E%3C/svg%3E");
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 170px 80px;
+}
+
+
+/* =========================
+   CONTACT
+   ========================= */
+
+.contact {
+    height: 240px;
+
+    background-color: #d8ead5;
+
+    /* GARIS CONTACT */
+    border-left: 1px solid #8fbe7f;
+    border-right: 1px solid #8fbe7f;
+    border-bottom: 1px solid #e5a300;
+    border-top: none;
+
+    padding-top: 20px;
+}
+
+.contact .judul-button {
+    margin-bottom: 10px;
+}
+
+.contact-form {
+    padding-left: 49px;
+    padding-right: 49px;
+}
+
+
+/* INPUT ROW */
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 19px;
+}
+
+
+/* INPUT */
+
+.input-row input {
+    width: 211px;
+    height: 21px;
+
+    background-color: white;
+
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+
+/* TEXTAREA */
+
+.contact-form textarea {
+    width: 100%;
+    height: 72px;
+
+    display: block;
+
+    background-color: white;
+
+    border: 1px solid black;
+    border-radius: 10px;
+
+    resize: none;
+
+    margin-bottom: 9px;
+}
+
+
+/* BUTTON */
+
+.contact-form button {
+    width: 113px;
+    height: 21px;
+
+    background-color: #0759e6;
+
+    color: white;
+
+    border: 1px solid #0048c7;
+    border-radius: 3px;
+
+    cursor: pointer;
+}
+
+
+/* =========================
+   FOOTER
+   ========================= */
+
+.footer {
+    height: 50px;
+
+    background-color: #ffe5c5;
+
+    /* GARIS FOOTER */
+    border-left: 1px solid #e5a300;
+    border-right: 1px solid #e5a300;
+    border-bottom: 1px solid #e5a300;
+    border-top: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
